@@ -98,7 +98,7 @@
           "attrs": [
             {
               "name": "фамилия",
-              "caption": "Фамилия",
+              "caption": "Менеджер ",
               "hidden": true,
               "index": 4
             }
@@ -140,7 +140,7 @@
           "attrs": [
             {
               "name": "фамилия",
-              "caption": "Фамилия",
+              "caption": "Клиент",
               "hidden": true,
               "index": 8
             }

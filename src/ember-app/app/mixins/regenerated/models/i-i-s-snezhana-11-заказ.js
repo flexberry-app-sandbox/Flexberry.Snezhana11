@@ -71,13 +71,13 @@ export let defineProjections = function (modelClass) {
     номерЗаказа: attr('Номер заказа', { index: 1 }),
     доставка: attr('Доставка', { index: 2 }),
     менеджер: belongsTo('i-i-s-snezhana-11-менеджер', 'Менеджер', {
-      фамилия: attr('Фамилия', { index: 4, hidden: true })
+      фамилия: attr('Менеджер ', { index: 4, hidden: true })
     }, { index: 3, displayMemberPath: 'фамилия' }),
     товар: belongsTo('i-i-s-snezhana-11-товар', 'Товар', {
       наименование: attr('Наименование', { index: 6, hidden: true })
     }, { index: 5, displayMemberPath: 'наименование' }),
     клиент: belongsTo('i-i-s-snezhana-11-клиент', 'Клиент', {
-      фамилия: attr('Фамилия', { index: 8, hidden: true })
+      фамилия: attr('Клиент', { index: 8, hidden: true })
     }, { index: 7, displayMemberPath: 'фамилия' }),
     оплата: hasMany('i-i-s-snezhana-11-оплата', 'Табличная часть оплата', {
       способ: attr('Способ', { index: 0 }),
