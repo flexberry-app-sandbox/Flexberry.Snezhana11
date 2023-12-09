@@ -79,7 +79,7 @@
       "attrs": [
         {
           "name": "фамилия",
-          "caption": "Фамилия",
+          "caption": "Фамилия клиента",
           "hidden": false,
           "index": 0
         },

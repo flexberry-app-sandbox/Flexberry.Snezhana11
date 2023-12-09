@@ -61,7 +61,7 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КлиентE', 'i-i-s-snezhana-11-клиент', {
-    фамилия: attr('Фамилия', { index: 0 }),
+    фамилия: attr('Фамилия клиента', { index: 0 }),
     имя: attr('Имя', { index: 1 }),
     отчество: attr('Отчество', { index: 2 }),
     адрес: attr('Адрес', { index: 3 }),

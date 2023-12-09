@@ -29,7 +29,7 @@ namespace IIS.Snezhana_11
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КлиентE", new string[] {
-            "Фамилия as \'Фамилия\'",
+            "Фамилия as \'Фамилия клиента\'",
             "Имя as \'Имя\'",
             "Отчество as \'Отчество\'",
             "Адрес as \'Адрес\'",
