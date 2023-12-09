@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-snezhana-11-производитель-e",
+  "editForm": "i-i-s-snezhana-11-производитель-e",
+  "external": false,
+  "caption": "Производитель",
+  "name": "IISSnezhana_11ПроизводительL",
+  "className": "ПроизводительL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-snezhana-11-производитель",
+      "modelProjection": "ПроизводительL"
+    }
+  ]
+}

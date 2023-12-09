@@ -1,0 +1,81 @@
+﻿{
+  "applicationCaption": "Snezhana_11",
+  "applicationTitle": "Snezhana_11",
+  "items": [
+    {
+      "link": null,
+      "menuName": "заказ",
+      "caption": "Заказ",
+      "title": "Заказ",
+      "children": [
+        {
+          "link": "i-i-s-snezhana-11-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "Заказ",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-по-товарам",
+      "caption": "Справочник по товарам",
+      "title": "Справочник по товарам",
+      "children": [
+        {
+          "link": "i-i-s-snezhana-11-поставщик-l",
+          "menuName": null,
+          "caption": "Поставщик",
+          "title": "Поставщик",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhana-11-товар-l",
+          "menuName": null,
+          "caption": "Товар",
+          "title": "Товар",
+          "children": null
+        },
+        {
+          "link": "i-i-s-snezhana-11-производитель-l",
+          "menuName": null,
+          "caption": "Производитель",
+          "title": "Производитель",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "клиенты",
+      "caption": "Клиенты",
+      "title": "Клиенты",
+      "children": [
+        {
+          "link": "i-i-s-snezhana-11-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "Клиент",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "менеджеры",
+      "caption": "Менеджеры",
+      "title": "Менеджеры",
+      "children": [
+        {
+          "link": "i-i-s-snezhana-11-менеджер-l",
+          "menuName": null,
+          "caption": "Менеджер",
+          "title": "Менеджер",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

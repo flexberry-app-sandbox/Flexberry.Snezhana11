@@ -1,0 +1,1 @@
+docker-compose -p snezhana_11-java up -d
