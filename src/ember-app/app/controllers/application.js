@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-snezhana-11-заказ-l',
             caption: i18n.t('forms.application.sitemap.заказ.i-i-s-snezhana-11-заказ-l.caption'),
             title: i18n.t('forms.application.sitemap.заказ.i-i-s-snezhana-11-заказ-l.title'),
-            icon: 'archive',
+            icon: 'file',
             children: null
           }]
         }, {
@@ -40,19 +40,18 @@ export default Controller.extend({
             link: 'i-i-s-snezhana-11-поставщик-l',
             caption: i18n.t('forms.application.sitemap.справочник-по-товарам.i-i-s-snezhana-11-поставщик-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-по-товарам.i-i-s-snezhana-11-поставщик-l.title'),
-            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-snezhana-11-товар-l',
             caption: i18n.t('forms.application.sitemap.справочник-по-товарам.i-i-s-snezhana-11-товар-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-по-товарам.i-i-s-snezhana-11-товар-l.title'),
-            icon: 'tasks',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-snezhana-11-производитель-l',
             caption: i18n.t('forms.application.sitemap.справочник-по-товарам.i-i-s-snezhana-11-производитель-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-по-товарам.i-i-s-snezhana-11-производитель-l.title'),
-            icon: 'archive',
+            icon: 'building',
             children: null
           }]
         }, {
@@ -64,7 +63,7 @@ export default Controller.extend({
             link: 'i-i-s-snezhana-11-клиент-l',
             caption: i18n.t('forms.application.sitemap.клиенты.i-i-s-snezhana-11-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.клиенты.i-i-s-snezhana-11-клиент-l.title'),
-            icon: 'building',
+            icon: 'folder',
             children: null
           }]
         }, {
@@ -76,7 +75,7 @@ export default Controller.extend({
             link: 'i-i-s-snezhana-11-менеджер-l',
             caption: i18n.t('forms.application.sitemap.менеджеры.i-i-s-snezhana-11-менеджер-l.caption'),
             title: i18n.t('forms.application.sitemap.менеджеры.i-i-s-snezhana-11-менеджер-l.title'),
-            icon: 'address card',
+            icon: 'book',
             children: null
           }]
         }

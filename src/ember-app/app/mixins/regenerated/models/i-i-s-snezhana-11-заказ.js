@@ -6,7 +6,7 @@ import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes'
 
 export let Model = Mixin.create({
   дата: DS.attr('date'),
-  доставка: DS.attr('i-i-s-snezhana-11-способ1'),
+  доставка: DS.attr('i-i-s-snezhana-11-тип-доставки'),
   номерЗаказа: DS.attr('number'),
   клиент: DS.belongsTo('i-i-s-snezhana-11-клиент', { inverse: null, async: false }),
   менеджер: DS.belongsTo('i-i-s-snezhana-11-менеджер', { inverse: null, async: false }),

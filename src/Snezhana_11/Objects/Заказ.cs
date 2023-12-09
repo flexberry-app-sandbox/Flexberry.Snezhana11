@@ -60,7 +60,7 @@ namespace IIS.Snezhana_11
         
         private int fНомерЗаказа;
         
-        private IIS.Snezhana_11.Способ1 fДоставка;
+        private IIS.Snezhana_11.ТипДоставки fДоставка;
         
         private IIS.Snezhana_11.Менеджер fМенеджер;
         
@@ -112,14 +112,14 @@ namespace IIS.Snezhana_11
         // *** Start programmer edit section *** (Заказ.Доставка CustomAttributes)
 
         // *** End programmer edit section *** (Заказ.Доставка CustomAttributes)
-        public virtual IIS.Snezhana_11.Способ1 Доставка
+        public virtual IIS.Snezhana_11.ТипДоставки Доставка
         {
             get
             {
                 // *** Start programmer edit section *** (Заказ.Доставка Get start)
 
                 // *** End programmer edit section *** (Заказ.Доставка Get start)
-                IIS.Snezhana_11.Способ1 result = this.fДоставка;
+                IIS.Snezhana_11.ТипДоставки result = this.fДоставка;
                 // *** Start programmer edit section *** (Заказ.Доставка Get end)
 
                 // *** End programmer edit section *** (Заказ.Доставка Get end)

@@ -6,7 +6,7 @@
 CREATE TABLE Заказ (
  primaryKey UUID NOT NULL,
  Дата TIMESTAMP(3) NULL,
- Доставка VARCHAR(18) NULL,
+ Доставка VARCHAR(9) NULL,
  НомерЗаказа INT NULL,
  Клиент UUID NOT NULL,
  Менеджер UUID NOT NULL,

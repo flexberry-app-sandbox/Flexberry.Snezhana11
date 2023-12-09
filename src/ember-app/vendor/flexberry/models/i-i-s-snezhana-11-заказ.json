@@ -17,8 +17,8 @@
     },
     {
       "name": "доставка",
-      "type": "i-i-s-snezhana-11-способ1",
-      "flexberryType": "Способ1",
+      "type": "i-i-s-snezhana-11-тип-доставки",
+      "flexberryType": "ТипДоставки",
       "notNull": false,
       "defaultValue": "",
       "stored": true,
